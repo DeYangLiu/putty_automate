@@ -16,3 +16,7 @@ step2:
 # scripting
 edit redirect_plink_io.c
 gcc redirect_plink_io.c -o io_redirect
+
+# TODO
+1. async read and write serial ports;
+2. passing ctrl-c signal to plink.exe;
